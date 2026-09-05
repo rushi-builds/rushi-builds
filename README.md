@@ -102,7 +102,7 @@ A private full-stack product focused on hyperlocal food delivery and commerce.
 | Power Systems            | Solar PV            | JavaScript               | Power BI                 |
 | Smart Grids              | Solar EPC           | Python                   | Data Analytics           |
 | MATLAB / Simulink        | PV System Design    | Embedded C               | Dashboards               |
-| AutoCAD Electrical       | PVsyst              | Excel VBA                | QGIS                     |
+| AutoCAD Electrical       | PVSyst              | Excel VBA                | QGIS                     |
 | SCADA                    | Energy Systems      | REST APIs                | Energy Analytics         |
 
 ---
