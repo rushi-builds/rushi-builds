@@ -26,7 +26,7 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 const response = await fetch("https://api.github.com/graphql", {
   method: "POST",
   headers: {
-    Authorization: \`Bearer \${token}\`,
+    Authorization: `Bearer ${token}`,
     "Content-Type": "application/json",
     "User-Agent": "rushi-builds-profile"
   },
@@ -41,7 +41,7 @@ const response = await fetch("https://api.github.com/graphql", {
 });
 
 if (!response.ok) {
-  throw new Error(\`GitHub API error: \${response.status}\`);
+  throw new Error(`GitHub API error: ${response.status}`);
 }
 
 const data = await response.json();
@@ -55,9 +55,9 @@ const total =
   data.data.user.contributionsCollection
     .contributionCalendar.totalContributions;
 
-console.log(\`GitHub reports: \${total} contributions\`);
+console.log(`GitHub reports: ${total} contributions`);
 
-const svg = \`
+const svg = `
 <svg xmlns="http://www.w3.org/2000/svg"
      width="900"
      height="210"
@@ -81,7 +81,7 @@ const svg = \`
         font-size="48"
         font-family="Arial, sans-serif"
         font-weight="bold">
-    \${total}
+    ${total}
   </text>
 
   <text x="35" y="135"
@@ -99,7 +99,7 @@ const svg = \`
   </text>
 
 </svg>
-\`;
+`;
 
 fs.mkdirSync("assets", { recursive: true });
 
