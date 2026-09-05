@@ -112,30 +112,43 @@ A private full-stack product focused on hyperlocal food delivery and commerce.
 
 ---
 
-## 🧠 Core Engineering Interests
+## ⚡⚡⚡ My Tech Stack Flow ⚡⚡⚡
 
 ```
-Power Systems
-     │
-     ├── Smart Grids
-     ├── Renewable Energy
-     ├── Solar EPC
-     ├── Distribution Monitoring
-     └── Energy Analytics
-
-             +
-
-Software Engineering
-     │
-     ├── Automation
-     ├── IoT
-     ├── APIs
-     ├── Dashboards
-     └── Data Visualization
-
-             ↓
-
-      Engineering Solutions
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║    ⚡ POWER         💡 RENEWABLE       🔌 ELECTRONICS        ║
+║       SYSTEMS            ENERGY              & IoT             ║
+║          │                  │                   │               ║
+║          ▼                  ▼                   ▼               ║
+║    ┌─────────┐      ┌─────────┐       ┌─────────────┐       ║
+║    │  PLC/   │      │  Solar  │       │  ESP32/    │       ║
+║    │  SCADA  │      │    PV   │       │  Arduino   │       ║
+║    └────┬────┘      └────┬────┘       └──────┬──────┘       ║
+║         │                  │                   │               ║
+║         └──────────────────┼───────────────────┘               ║
+║                            ▼                                   ║
+║                    ┌─────────────┐                           ║
+║                    │   🧠 DATA   │                           ║
+║                    │ COLLECTION  │                           ║
+║                    └──────┬──────┘                           ║
+║                           │                                   ║
+║         ┌─────────────────┼─────────────────┐                 ║
+║         ▼                 ▼                 ▼                 ║
+║   ┌───────────┐   ┌─────────────┐   ┌───────────┐         ║
+║   │  💻 VBA   │   │  🌐 APIs   │   │  📊 IoT  │         ║
+║   │   Excel   │   │ Firebase /  │   │  Cloud   │         ║
+║   │  Scripts  │   │ Cloudflare │   │  Dashboards          ║
+║   └─────┬─────┘   └──────┬──────┘   └─────┬─────┘         ║
+║         │                  │                 │               ║
+║         └──────────────────┼─────────────────┘               ║
+║                            ▼                                 ║
+║              ┌───────────────────────┐                     ║
+║              │  ⚙️ AUTOMATION SYSTEM │                     ║
+║              │  Engineering Workflows  │                     ║
+║              └───────────────────────┘                     ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
 
 ---
