@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "node:fs";
 
 const token = process.env.GH_TOKEN;
 const username = "rushi-builds";
@@ -47,8 +47,8 @@ if (!response.ok) {
 const data = await response.json();
 
 if (data.errors) {
-  console.error(data.errors);
-  throw new Error("GraphQL request failed.");
+  console.error(JSON.stringify(data.errors, null, 2));
+  throw new Error("GitHub GraphQL request failed.");
 }
 
 const total =
