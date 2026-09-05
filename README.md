@@ -98,12 +98,12 @@ A private full-stack product focused on hyperlocal food delivery and commerce.
 ## 🛠️ Engineering × Software
 
 | ⚡ Electrical Engineering | ☀️ Renewable Energy | 💻 Software & Automation | 📊 Data & Visualization |
-| ------------------------ | ------------------- | ------------------------ | ----------------------- |
-| Power Systems            | Solar PV            | JavaScript               | Power BI               |
-| Smart Grids             | Solar EPC           | Python                   | Data Analytics          |
-| MATLAB                  | PV Design           | Embedded C               | Dashboards              |
-| AutoCAD Electrical      | Energy Systems     | Excel VBA                | QGIS                    |
-| SCADA                  | IoT Energy Systems | REST APIs                | Energy Analytics        |
+| ------------------------ | ------------------- | ------------------------ | ------------------------ |
+| Power Systems            | Solar PV            | JavaScript               | Power BI                 |
+| Smart Grids              | Solar EPC           | Python                   | Data Analytics           |
+| MATLAB / Simulink        | PV System Design    | Embedded C               | Dashboards               |
+| AutoCAD Electrical       | PVsyst              | Excel VBA                | QGIS                     |
+| SCADA                    | Energy Systems      | REST APIs                | Energy Analytics         |
 
 ---
 
