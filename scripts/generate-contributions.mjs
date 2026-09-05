@@ -1,7 +1,6 @@
 import fs from "node:fs";
 
 const token = process.env.GH_TOKEN;
-const username = "rushi-builds";
 
 if (!token) {
   throw new Error("GH_TOKEN is missing.");
@@ -12,12 +11,14 @@ const from = new Date(now);
 from.setUTCFullYear(from.getUTCFullYear() - 1);
 
 const query = `
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
+query($from: DateTime!, $to: DateTime!) {
+  viewer {
+    login
     contributionsCollection(from: $from, to: $to) {
       contributionCalendar {
         totalContributions
       }
+      restrictedContributionsCount
     }
   }
 }
@@ -33,7 +34,6 @@ const response = await fetch("https://api.github.com/graphql", {
   body: JSON.stringify({
     query,
     variables: {
-      login: username,
       from: from.toISOString(),
       to: now.toISOString()
     }
@@ -51,11 +51,20 @@ if (data.errors) {
   throw new Error("GitHub GraphQL request failed.");
 }
 
-const total =
-  data.data.user.contributionsCollection
-    .contributionCalendar.totalContributions;
+const contributions =
+  data.data.viewer.contributionsCollection;
 
-console.log(`GitHub reports: ${total} contributions`);
+const visible =
+  contributions.contributionCalendar.totalContributions;
+
+const restricted =
+  contributions.restrictedContributionsCount;
+
+const total = visible + restricted;
+
+console.log(`GitHub visible contributions: ${visible}`);
+console.log(`GitHub restricted contributions: ${restricted}`);
+console.log(`GitHub profile total: ${total}`);
 
 const svg = `
 <svg xmlns="http://www.w3.org/2000/svg"
