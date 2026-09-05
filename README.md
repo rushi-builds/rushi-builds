@@ -97,52 +97,18 @@ A private full-stack product focused on hyperlocal food delivery and commerce.
 
 ## 🛠️ Engineering × Software
 
-<h3>
-  <table>
-    <tr>
-      <th>⚡ Electrical Engineering</th>
-      <th>☀️ Renewable Energy</th>
-      <th>💻 Software & Automation</th>
-      <th>📊 Data & Visualization</th>
-    </tr>
-    <tr>
-      <td>Power Systems</td>
-      <td>Solar PV</td>
-      <td>JavaScript</td>
-      <td>Power BI</td>
-    </tr>
-    <tr>
-      <td>Smart Grids</td>
-      <td>Solar EPC</td>
-      <td>Python</td>
-      <td>Data Analytics</td>
-    </tr>
-    <tr>
-      <td>MATLAB / Simulink</td>
-      <td>PV System Design</td>
-      <td>Embedded C</td>
-      <td>Dashboards</td>
-    </tr>
-    <tr>
-      <td>AutoCAD Electrical</td>
-      <td>PVSyst</td>
-      <td>Excel VBA</td>
-      <td>QGIS</td>
-    </tr>
-    <tr>
-      <td>SCADA</td>
-      <td>Energy Systems</td>
-      <td>REST APIs</td>
-      <td>Energy Analytics</td>
-    </tr>
-    <tr>
-      <td>Control Systems</td>
-      <td>Energy Management</td>
-      <td>Git / GitHub</td>
-      <td>Data Visualization</td>
-    </tr>
-  </table>
-</h3>
+<div align="center">
+
+| ⚡ Electrical | ☀️ Renewable | 💻 Software | 📊 Data |
+|:---:|:---:|:---:|:---:|
+| `Power Systems` | `Solar PV` | `JavaScript` | `Power BI` |
+| `Smart Grids` | `Solar EPC` | `Python` | `Data Analytics` |
+| `MATLAB` | `PV Design` | `Embedded C` | `Dashboards` |
+| `AutoCAD` | `PVSyst` | `Excel VBA` | `QGIS` |
+| `SCADA` | `Energy Mgmt` | `REST APIs` | `Energy Analytics` |
+| `Control Sys` | `Battery Sys` | `Git/GitHub` | `Data Viz` |
+
+</div>
 
 ---
 
