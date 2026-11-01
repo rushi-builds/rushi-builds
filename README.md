@@ -21,7 +21,7 @@ IoT data acquisition and live visualization for distribution-level monitoring.
 
 ---
 
-## Activity
+## ◆ Activity
 
 <p align="center">
   <img src="./assets/github-contributions.svg" width="750" alt="GitHub contributions" />
