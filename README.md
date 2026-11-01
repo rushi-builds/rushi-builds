@@ -11,7 +11,7 @@ Every repeated problem on site is a tool waiting to be built.
 
 ## Selected work
 
-**Solar EPC Design Automation**
+**Design & Automation**
 Design, mapping and engineering calculations in one workflow, from site data to documentation.
 [Repository](https://github.com/rushi-builds/Solar-Designed-Map)
 
