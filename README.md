@@ -29,6 +29,6 @@ IoT data acquisition and live visualization for distribution-level monitoring.
 
 ---
 
-Pune, Maharashtra
+📍 Pune, Maharashtra
 
 [Email](mailto:rushidhumal.04@gmail.com) · [LinkedIn](https://linkedin.com/in/rushikesh-dhumal-07b597334)
